@@ -1,0 +1,189 @@
+.clearfix {
+  overflow: auto;
+}
+
+/* --------------
+    
+    Body
+
+--------------
+*/
+
+
+body {
+    background-color: #f0f0f0;
+    background-image:url('../image/bg_findeventos.gif');
+    background-repeat:repeat-x;
+    background-attachment: fixed;
+    padding: 0 1%;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+/* --------------
+    
+    header-main
+
+--------------
+*/
+
+#header-main {
+    background-color: #34495e;
+    padding: 1%;
+    margin: 1% 0;
+}
+
+/* --------------
+    
+    Nav menu top
+
+--------------
+*/
+
+#menu {
+    margin: 1% 0;
+    background-color: #1abc9c;
+}
+
+#menu ul {
+	list-style:none;
+}
+
+#menu li {
+    
+    padding: 1%;
+    margin: 0px;
+    float: left;
+}
+
+#menu li.selected {
+    background: #000;
+}
+
+#menu li:hover {
+    background: #000;
+}
+
+#menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    background: #000;
+}
+
+/* --------------
+    
+    Section page-main
+
+--------------
+*/
+
+.page-main {
+    padding: 1% 5%;
+    background-color: #fff;
+    color: #696969;
+}
+
+/* --------------
+    
+    Form inputs
+
+--------------
+*/
+
+input {
+    border: 2px solid #1abc9c;
+    background-color: #fff;
+    color: #696969;
+    display: block;
+}
+
+input[type="reset"] {
+    margin: 1% 0;
+    padding: 0.5%;
+    display: inline;
+}
+
+input[type="reset"]:hover {
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+input[type="submit"] {
+    margin: 1% 0;
+    padding: 0.5%;
+    display: inline;
+}
+
+input[type="submit"]:hover {
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+textarea {
+    border: 2px solid #1abc9c;
+    background-color: #fff;
+    color: #696969;
+    display: block;
+}
+
+/* --------------
+    
+    footer main
+
+--------------
+*/
+
+#footer-main {
+    background-color: #34495e;
+    padding: 1%;
+    margin: 1% 0;
+}
+
+#footer-main img{
+    float: right;
+}
+
+#footer-main p{
+    text-align: center;
+}
+
+#footer-main a{
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+#footer-main a:hover{
+    color: #696969;
+}
+
+/* --------------
+    
+    Def colors
+
+--------------
+*/
+
+.color-ok {
+    border-style: none;
+    color: #fff;
+    background-color: #2ecc71;
+}
+
+.color-caution {
+    border-style: none;
+    color: #fff;
+    background-color: #e67e22;
+}
+
+.color-danger {
+    border-style: none;
+    color: #fff;
+    background-color: #e74c3c;
+}
+
+.color-normal {
+    border-style: none;
+    color: #fff;
+    background-color: #3498db;
+}
